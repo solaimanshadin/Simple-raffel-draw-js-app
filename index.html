@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raffel Draw App</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="participents">
+            <h2>Participent list</h2>
+            <p id="entry-mgs"></p>
+            <div class="add-new">
+                <input type="text" value="" id="participent-name" placeholder="Enter Name">
+                <button id="add-btn">Add</button>
+            </div>
+            <ol id="praticipent-list"> </ol>
+        </div>
+        <div class="draw-area">
+            <div class="winner">
+                <h3>Winner</h3>
+                <p id="winner">?</p>
+            </div>
+            <button id="get-winner">Get Winner</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

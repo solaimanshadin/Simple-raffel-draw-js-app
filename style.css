@@ -1,0 +1,64 @@
+body{
+    background-image: linear-gradient(45deg,crimson,magenta);
+    height: 100%;
+    padding: 5%;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    background-color: #fff;
+    display: flex;
+    border-radius: 5px;
+    box-shadow: 0 0 10px lightgray;
+}
+.participents ol{
+    height: 50vh;
+    overflow: auto;
+}
+.container >div{
+    padding: 5%;
+}
+.draw-area {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.add-new{
+    display: flex;
+}
+#entry-mgs{
+    color:red;
+}
+input{
+    padding: 5px;
+}
+button{
+    background-image: linear-gradient(45deg,crimson,magenta);
+    padding: 15px 30px;
+    border: 0;
+    border-radius: 3px;
+    color: #ffffff;
+    cursor: pointer;
+    max-width: 200px;
+}
+button#close{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    padding: 0;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-left: 1em;
+}
+.winner{
+    width: 40%;
+    box-shadow: 0px 1px 20px #0000000d;
+    padding: 25px;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 100px;
+
+}
+.winner img{
+    width: 100%;
+}
